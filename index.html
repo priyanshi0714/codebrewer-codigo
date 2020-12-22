@@ -3,111 +3,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>society-o-pedia</title>
+    <title>Society-o-pedia</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./icons/ti-logo.png">
 </head>
-<body>
-    <header>
-        <div class="bg-img">
-          
-                <h4 id="web-name">SOCIETY-O-PEDIA</h4>
-                <navbar class="nav">
-                    <ul> 
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Dasboard</a></li>
-                    </ul>
-                </navbar>
-    
-         
-            <div class="title">
-                <h1>SOCIETIES IN THAPAR</h1>
-                <h6>Thapar Institute of Engineering and Technology</h6>
-            </div>
-
-        </div>
+<header>
+    <div class="main">
+        <div class="name"><h3>Society-o-pedia</h3></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./dashboard/dashboard.html">Dashboard</a></li>
+        </ul>
+    </div>
+    <div class="title">
+        <h1>SOCIETIES IN THAPAR</h1>
+        <h4>Thapar Institute of Engineering and Technology</h4>
+    </div>
 </header>
-
-
-    <div class="section-2">
-        <h1>About</h1>
-                <div class=about>Thapar Institute of Engineering and Technology has 50+ Societies, Clubs and Chapters of diverse expertise and cultures, which are eagerly waiting for the freshers to be a part of them.
-
-                                One of the best things about college life, beyond question, is getting to explore things apart from academics. And the missing experience that a student often anticipates, is provided through various societies at Thapar Institute of Engineering and Technology.
-                                
-                                Amidst the pressure of constant lectures and submissions, societies at Thapar Institute of Engineering and Technology can give a student the much-needed escape and fun from the otherwise monotonous college life. They not only provide an outlet to harness one's talents, help polishing existing ones but are also a plus point on CVs, and a guaranteed way to find some friends for a lifetime. Along with a host of friends from different walks of life, one gains a lot of experience through organizing fests and events when the sun sets and classes conclude. The diverse interaction with other students, or even students from various colleges and cities, and the competitive spirit helps one chisel out the best.
-                                
-                                Want to be a part of this hectic, yet action packed part of college life? Don’t worry freshers, a surprise is  on it’s way.</h6>
-
-                </div>
-    </div>
+<body  >
+    <canvas id="c">
+    </canvas>
     
-  
-  
-    <div class="section-3">
-        <div class="card">
-            <div class="image">
-                <img src="./img/arts.jpg">
+    <div class="bg">
+       <div class="about">
+           <h2>About</h2>
+           <p>Thapar Institute of Engineering and Technology has 50+ Societies, Clubs and Chapters of diverse expertise and cultures, which are eagerly waiting for the freshers to be a part of them.
+
+            One of the best things about college life, beyond question, is getting to explore things apart from academics. And the missing experience that a student often anticipates, is provided through various societies at Thapar Institute of Engineering and Technology.
+            
+            Amidst the pressure of constant lectures and submissions, societies at Thapar Institute of Engineering and Technology can give a student the much-needed escape and fun from the otherwise monotonous college life. They not only provide an outlet to harness one's talents, help polishing existing ones but are also a plus point on CVs, and a guaranteed way to find some friends for a lifetime. Along with a host of friends from different walks of life, one gains a lot of experience through organizing fests and events when the sun sets and classes conclude. The diverse interaction with other students, or even students from various colleges and cities, and the competitive spirit helps one chisel out the best.
+            
+            Want to be a part of this hectic, yet action packed part of college life? Don’t worry freshers, a surprise is  on it’s way.
+            </p>
+       </div>
+
+       <div class="cards">
+             <div class="cd">
+                    <div class="image"><img src="./img/arts.jpg"></div>
+                    <div class="category"><p>Arts,Cultural& Literature</p> </div>
+                    <a href="./explore-pages/"> <button class="explore">Explore</button></a>
             </div>
-            <div class="title">
-                <h4>Arts,Cultural& Literature</h4>
+            <div class="cd">
+                <div class="image"><img src="./img/healthandwellness.jpg"></div>
+                <div class="category"><p>Health and Wellness</p> </div>
+                <a href="./explore-pages/"> <button class="explore">Explore</button></a>
             </div>
-            <div class="des">
-                <a href="./explore-pages/"> <button>Explore</button></a>
+            <div class="cd">
+                <div class="image"><img src="./img/social-outreach.jpg"></div>
+                <div class="category"><p>Social Outreach and wellfares</p> </div>
+                <a href="./explore-pages/social.html"> <button class="explore">Explore</button></a>
             </div>
+            <div class="cd">
+                <div class="image"><img src="./img/codecode.jpg"></div>
+                <div class="category"><p>Technical and Coding</p> </div>
+                <a href="./explore-pages/technical.html"> <button class="explore">Explore</button></a>
         </div>
-        <div class="card">
-            <div class="image">
-                <img src="./img/healthandwellness.jpg">
-            </div>
-            <div class="title">
-                <h4>Health and Wellness</h4>
-            </div>
-            <div class="des">
-                <!-- <p>Description  here</p> -->
-                <a href="./explore-pages/"> <button>Explore</button></a>
-            </div>
-            </div>
-    <div class="card">
-        <div class="image">
-            <img src="./img/social-outreach.jpg">
-        </div>
-        <div class="title">
-            <h4>Social Outreach and wellfare</h4>
-        </div>
-        <div class="des">
-            <!-- <p>Description  here</p> -->
-            <a href="./explore-pages/"> <button>Explore</button></a>
+
         </div>
     </div>
-    <div class="card">
-        <div class="image">
-            <img src="./img/codecode.jpg">
-        </div>
-        <div class="title">
-            <h4>Technical and Coding</h4>
-        </div>
-        <div class="des">
-            <!-- <p>Description  here</p> -->
-            <a href="./explore-pages/technical.html"> <button>Explore</button></a>
-        </div>
-    </div>
-</div>
-    <footer>
-       <h1>CONTACT US</h1>
-       <div class="location">
-           <img src="./icons/location.png">
-           <p>TIET,Patiala -147004</p>
-        </div>
-       <div class="no">
-           <img src="./icons/phone.png">
-           <p>Tanya - 8630112968</p>
-        </div>
 
-   </footer>
+    <script >
+       var ctx = document.getElementById('c').getContext('2d');
+var view = {width: window.innerWidth, height: window.innerHeight};
+ctx.canvas.width = view.width; ctx.canvas.height = view.height;
 
-<script type="text/javasript" src="main.js">
+var keys = (new Array(127)).fill(0);
+document.onkeydown = (e) => {keys[e.keyCode] = 1; console.log(e.keyCode)}; document.onkeyup = (e) => {keys[e.keyCode] = 0};
 
-</script>
+var world = {width: view.width * 2, height: view.height * 2};
+
+var	Camera = function(position, zoom) {
+	this.position = position;
+	this.speed = 3;
+	this.acceleration = {x: 0, y: 0, z: 0};
+	this.zoom = zoom;
+}
+
+var Joint = function(position, vector) {
+	this.position = position;
+	this.vector = vector;
+	this.speed = 0.5;
+	this.w = 2;
+	this.h = 2;
+	this.bone_length = 150;
+	this.neighbors = [];
+}
+
+var joints_generator = (numb) => {
+	var arr = new Array(numb).fill(0);
+	arr.forEach((v, i, a) => {
+		a[i] = new Joint(
+			{
+				x: Math.random() * world.width,
+				y: Math.random() * world.height
+			},
+			{
+				x: Math.random() * 2 - 1,
+				y: Math.random() * 2 - 1
+			}
+		)
+	});
+	return arr;
+}
+
+var joints_move = (arr) => {
+	arr.forEach((v, i, a) => {
+		v.position.x += v.vector.x * v.speed;
+		v.position.y += v.vector.y * v.speed;
+		if (v.position.x < 0) v.position.x = world.width;
+		if (v.position.x > world.width) v.position.x = 0;
+		if (v.position.y < 0) v.position.y = world.height;
+		if (v.position.y > world.height) v.position.y = 0;
+	});
+}
+
+var joints_draw = (arr, cam) => {
+	var len = arr.length;
+	for (var i = 0; i < len; i ++) {
+		for (var j = i + 1; j < len; j += 3) {
+			var length = Math.hypot(arr[j].position.x - arr[i].position.x, arr[j].position.y - arr[i].position.y);
+			if (length <= arr[i].bone_length) {
+				ctx.beginPath();
+				ctx.lineWidth = cam.zoom * (30 / length);
+				ctx.moveTo(
+					view.width / 2 + (arr[i].position.x - cam.position.x) * cam.zoom, 
+					view.height / 2 + (arr[i].position.y - cam.position.y) * cam.zoom
+				);
+				ctx.lineTo(
+					view.width / 2 + (arr[j].position.x - cam.position.x) * cam.zoom, 
+					view.height / 2 + (arr[j].position.y - cam.position.y) * cam.zoom
+				);
+				ctx.stroke();
+				ctx.closePath();
+			}
+		}
+		ctx.fillRect(
+			view.width / 2 + ((arr[i].position.x - cam.position.x) - arr[i].w / 2) * cam.zoom, 
+			view.height / 2 + ((arr[i].position.y - cam.position.y) - arr[i].w / 2) * cam.zoom, 
+			arr[i].w * cam.zoom, arr[i].h * cam.zoom
+		);
+	}
+	/*for (var t = (new Date()).getTime(), i = 0; i < 400; i ++) {
+		for (var j = i + 1; j < 400; j += 1) {
+		}
+	}; console.log((new Date()).getTime()-t)*/
+}
+
+var camera_move = (cam) => {
+	cam.position.x += cam.acceleration.x;
+	cam.position.y += cam.acceleration.y;
+	cam.zoom += cam.acceleration.z;
+	if (keys[37]) {
+		cam.acceleration.x -= cam.speed;
+	}
+	if (keys[38]) {
+		cam.acceleration.y -= cam.speed;
+	}
+	if (keys[39]) {
+		cam.acceleration.x += cam.speed;
+	}
+	if (keys[40]) {
+		cam.acceleration.y += cam.speed;
+	}
+	if (keys[188]) {
+		cam.acceleration.z += 0.003;
+	}
+	if (keys[190]) {
+		cam.acceleration.z -= 0.003;
+	}
+	cam.acceleration.x = cam.acceleration.x * 0.96;
+	cam.acceleration.y = cam.acceleration.y * 0.96;
+	cam.acceleration.z = cam.acceleration.z * 0.90;
+}
+
+var joints = joints_generator(400);
+var camera = new Camera({x: world.width / 2, y: world.height / 2}, 1);
+
+ctx.fillStyle = ctx.strokeStyle = '#FF0000';
+var LOOP = () => {
+	ctx.clearRect(0, 0, view.width, view.height);
+	
+	// тут какая-то динамика
+	camera_move(camera);
+	joints_move(joints);
+	joints_draw(joints, camera);
+
+	//setTimeout(LOOP, 0);
+	requestAnimationFrame(LOOP);
+}
+LOOP();
+    </script>
 
 </body>
+<footer>
+    <h1>CONTACT US</h1>
+    <div class="contact">
+        <div class="location">
+            <div class="logo"><img src="./icons/location.png"></div>
+            <p>TIET,Patiala -147004</p>
+        </div>
+        <div class="number">
+            <div class="logo"><img src="./icons/phone.png"></div>
+            <p>Tanya - 8630112968<br>Priyanshi - 9997140168</p>
+        </div>
+    </div>
+</footer>
 </html>
+
+
