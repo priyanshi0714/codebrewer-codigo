@@ -58,20 +58,29 @@ ul li a:hover{
     margin :auto;
 }
 .title{
+    width:50%;
 position:absolute;
 top:35%;
 left:50%;
 transform: translate(-50%,-50%);
 color:black;
+text-align:center;
 
 }
 .title h4{
     font-size: 35px;
 }
 .title h1{
-    font-size: 65px;
 
-}
+
+
+
+
+
+
+    
+ font-size: 60px;
+ }
 .bg{
     color:white;
     margin:20px;
@@ -79,7 +88,7 @@ color:black;
     max-width: 1300px;
     margin :auto; 
     position: relative;
-    margin-top: -45% ;
+    margin-top: -50% ;
     /* z-index :1000; */
 }
 .about{

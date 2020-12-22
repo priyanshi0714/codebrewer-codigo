@@ -83,9 +83,38 @@ body img{
     margin-left:20%;
 }
 .events h1{
+  padding-left: 40px;
+  border-right: solid 3px black;
+  white-space: nowrap;
+  overflow: hidden;    
+  /* font-family: 'Source Code Pro', monospace;   */
+  /* font-size: 28px; */
+  color: rgba(255,255,255,.70);
+
+
+/* Animation */
+
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) 5s 1 normal;
+
+/* text animation */
+}
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 470px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: black;}
+  to{border-right-color: transparent;}
+}
+
+.events h1{
     text-align: center;
-    font-size: 50px;
-    padding-top:30px;
+    font-size: 40px;
+    padding-top:20px;
     color:black;
 }
 .events .post{
