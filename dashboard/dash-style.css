@@ -95,7 +95,7 @@ body img{
 /* Animation */
 
   animation: animated-text 4s steps(29,end) 1s 1 normal both,
-             animated-cursor 600ms steps(29,end) 5s 1 normal;
+             animated-cursor 600ms steps(29,end) infinite;
 
 /* text animation */
 }
